@@ -10,7 +10,6 @@ pepline {
                echo "PATH = ${PATH}"
                echo "M2_HOME = ${M2_HOME}"
       '''
-
     }
   }
   stage ('Build') {
@@ -18,4 +17,5 @@ pepline {
      sh 'mvn clean package'
      }
   }
+}
 }
