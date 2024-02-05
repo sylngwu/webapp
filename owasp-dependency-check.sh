@@ -15,7 +15,6 @@ if [ ! -d "$CACHE_DIRECTORY" ]; then
     echo "Initially creating persistent directory: $CACHE_DIRECTORY"
     mkdir -p "$CACHE_DIRECTORY"
 fi
-
 if [ ! -d "$REPORT_DIRECTORY" ]; then
     echo "Initially creating persistent directory: $REPORT_DIRECTORY"
     mkdir -p "$REPORT_DIRECTORY"
